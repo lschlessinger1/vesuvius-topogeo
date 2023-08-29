@@ -5,6 +5,8 @@ found under the `notebooks` directory.  It's best viewed using GitHub pages (see
 [notebook here](http://lschlessinger1.github.io/vesuvius-topogeo/static/analyze-all-meshes.html)) or [nbviewer](https://nbviewer.org/) in order for the interactive plotly 
 graphs to display properly.
 
+![A mesh pseudo-colored by curvature values](images/curvature-preview.png "Mesh curvature preview")
+
 ## Getting started
 
 If you'd like to run the notebook, you'll first have to download the dependencies and ensure the mesh data is in the 
