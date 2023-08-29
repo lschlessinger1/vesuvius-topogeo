@@ -54,14 +54,14 @@ The `path/to/scroll/data` and `path/to/fragment/data` default to `data/fragments
 If you don't have the mesh data, you can download it after you have registered for the 
 [Vesuvius Challenge](https://scrollprize.org/) (see [data agreement here](https://docs.google.com/forms/d/e/1FAIpQLSf2lCOCwnO1xo0bc1QdlL0a034Uoe7zyjYBY2k33ZHslHE38Q/viewform)).
 This will give you the username and password that you'll need for the next step. You must set the environment variables
-`USER` and `PASS`. You can create an `.env` file (see `.env.example` for an example), fill it out. You'd then have to
+`USER` and `PASS`. You can create an `.env` file (see `.env.example` for an example) and fill it out. You'd then have to
 set the environment variables, which can be done as such in a Linux shell:
 
 ```bash
 export $(grep -v '^#' .env | tr -d '\r' | xargs)
 ```
 
-Under the `scripts` directory, there are two scripts: one for downloading the scroll mesh data and one for downloading 
+Under the `scripts` directory, there is a one script for downloading the scroll mesh data and another for downloading 
 the fragment mesh data. They rely on [rclone](https://rclone.org), so please download it from 
 [here](https://rclone.org/downloads/).
 
