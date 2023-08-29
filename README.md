@@ -56,8 +56,6 @@ set the environment variables, which can be done as such in a Linux shell:
 export $(grep -v '^#' .env | tr -d '\r' | xargs)
 ```
 
-export $(cat .env | grep -v "#" | xargs)
-
 Under the `scripts` directory, there are two scripts: one for downloading the scroll mesh data and one for downloading 
 the fragment mesh data. They rely on [rclone](https://rclone.org), so please download it from 
 [here](https://rclone.org/downloads/).
