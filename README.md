@@ -1,7 +1,9 @@
 # vesuvius-topogeo
 Here, you'll find [a notebook](notebooks/analyze-all-meshes.ipynb) analyzing the topology and geometry of the 
 fragments and scroll segments for the [Vesuvius Challenge](https://scrollprize.org/). The mesh analysis notebook can be
-found under the `notebooks` directory.
+found under the `notebooks` directory.  It's best viewed using GitHub pages (see 
+[notebook here](http://lschlessinger1.github.io/vesuvius-topogeo/static/analyze-all-meshes.html)) or [nbviewer](https://nbviewer.org/) in order for the interactive plotly 
+graphs to display properly.
 
 ## Getting started
 
