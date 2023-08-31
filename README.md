@@ -2,7 +2,7 @@
 Here, you'll find [a notebook](notebooks/analyze-all-meshes.ipynb) analyzing the topology and geometry of the 
 fragments and scroll segments for the [Vesuvius Challenge](https://scrollprize.org/). The mesh analysis notebook can be
 found under the `notebooks` directory.  It's best viewed using GitHub pages (see 
-[notebook here](http://lschlessinger1.github.io/vesuvius-topogeo/static/analyze-all-meshes.html)) or [nbviewer](https://nbviewer.org/) in order for the interactive plotly 
+[notebook here](http://lschlessinger1.github.io/vesuvius-topogeo/static/analyze-all-meshes.html)) or [nbviewer](https://nbviewer.org/) (see [notebook on nbviewer here](https://nbviewer.org/github/lschlessinger1/vesuvius-topogeo/blob/main/notebooks/analyze-all-meshes.ipynb)) in order for the interactive plotly 
 graphs to display properly.
 
 ![A mesh pseudo-colored by curvature values](images/curvature-preview.png "Mesh curvature preview")
