@@ -71,15 +71,11 @@ To download all fragment mesh data (only `.obj` files) you can run the script:
 ./scripts/download-fragment-mesh-data.sh 1 2 3
 ```
 
-All fragment mesh data will currently require ~20 MB of disk space.
-
 To download all scroll mesh data (only `.obj` files) you can run the script:
 
 ```bash
 ./scripts/download-scroll-mesh-data.sh 1 2
 ```
-
-All scroll mesh data will currently require ~500 MB of disk space.
 
 The default download directory will be `data`, but this can be changed by setting the `DATA_DIR` environment variable.
 
