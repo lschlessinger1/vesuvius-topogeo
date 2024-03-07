@@ -65,13 +65,13 @@ Under the `scripts` directory, there is one script for downloading the scroll me
 the fragment mesh data. They rely on [rclone](https://rclone.org), so please download it from 
 [here](https://rclone.org/downloads/).
 
-To download all fragment mesh data (only `.obj` files) you can run the script:
+To download all fragment (1, 2, and 3) mesh data (only `.obj` files) you can run the script:
 
 ```bash
 ./scripts/download-fragment-mesh-data.sh 1 2 3
 ```
 
-To download all scroll mesh data (only `.obj` files) you can run the script:
+To download all scroll mesh data (only `.obj` files from scrolls 1 and 2) you can run the script:
 
 ```bash
 ./scripts/download-scroll-mesh-data.sh 1 2
